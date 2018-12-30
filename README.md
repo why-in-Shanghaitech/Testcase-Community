@@ -31,3 +31,6 @@ My email address is wuhy1@shanghaitech.edu.cn
 4. Judge
 
   Judge your own program through running "judger.py". Use command line "python judger.py" on Windows or "python3 judger.py" on linux.
+
+# Bug
+There may be some bugs in the judger. When you fail to use the judger, please download the newest version of "judger.py". If it still does work, please send me an email to describe what happened.
