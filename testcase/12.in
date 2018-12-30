@@ -1,0 +1,8 @@
+bool F=False;
+bool V=True;
+main ( ) {
+l2:if (!V | V & V & !F & (F | V ) & (!F | F | !V & V))
+ l3:F=!F;fi
+
+ l4:F = !F;
+l5:return F;}

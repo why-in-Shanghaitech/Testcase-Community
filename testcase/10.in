@@ -1,0 +1,8 @@
+bool F=False;
+bool V=True;
+main ( ) {
+l2:while (!!!!!(F&True))
+ l3:F=!F;done
+
+ l4:F = !F;
+l5:return F;}
