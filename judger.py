@@ -7,7 +7,7 @@ if os.name=='nt':
     # if it is under windows
 
     # update testcases
-    if not(os.path.exists("./testcase")):
+    if not(os.path.exists("./.git")):
         os.system("git init")
         os.system("git remote add -f origin https://github.com/why-in-Shanghaitech/Testcase-Community.git")
         os.system("git config core.sparsecheckout true")
@@ -73,7 +73,7 @@ elif os.name=='posix':
 	# if it is under linux
 
     # update testcases
-    if not(os.path.exists("testcase")):
+    if not(os.path.exists(".git")):
         os.system("git init")
         os.system("git remote add -f origin https://github.com/why-in-Shanghaitech/Testcase-Community.git")
         os.system("git config core.sparsecheckout true")
