@@ -1,5 +1,7 @@
 # Testcase-Community
-Welcome to use Testcase-Community! Hopefully this will inspire you and help you solve the problem.
+Welcome to Testcase-Community! Hopefully this will inspire you and help you solve the problem.
+
+Through Testcase-Community, you can test your own program with online testcases just by one command line. All the testcases will be automatically updated before each judgement. These testcases may come from any student who once failed on them. You can check all the testcases on your own computer in the folder 'testcase' without opening a website.
 
 Current problem: hw6
 
