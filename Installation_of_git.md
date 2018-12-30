@@ -16,3 +16,10 @@ brew install git
 
 Download and install “git for windows”:
 https://gitforwindows.org/
+
+# config personal information
+$ git config --global user.name "admin"
+
+$ git config --global user.email test@shanghaitech.edu.cn
+
+"admin" is your user name, and test@shanghaitech.edu.cn is your email address
