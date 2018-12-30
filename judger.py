@@ -26,7 +26,7 @@ if os.name=='nt':
 
     # check the input file
     if not(os.path.exists("./hw6.py")):
-        pass
+        raise ImportError("hw6.py not found!")
 
     while True:
         # check the input file
@@ -92,7 +92,7 @@ elif os.name=='posix':
 
     # check the input file
     if not(os.path.exists("hw6.py")):
-        pass
+        raise ImportError("hw6.py not found!")
 
     while True:
         # check the input file
