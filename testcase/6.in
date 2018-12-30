@@ -1,0 +1,13 @@
+bool break = False  ;
+bool b_Z = True;
+main ( ) {
+l1:if (break & b_Z)
+l2:	break=!b_Z;
+l3:	pass;
+fi
+l4:while (break)
+l5:	break=!break;
+done
+l6:break = !break;
+l7:return break;
+}

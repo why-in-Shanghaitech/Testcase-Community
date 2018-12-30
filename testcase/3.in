@@ -1,0 +1,16 @@
+    bool x = True;
+    bool y = False;
+    bool z = True;
+    bool a = True;
+    main()
+    {
+    1:  while (!(y|x|z))
+    2:      y=!x;
+    3:      x=!z;
+    4:      z=y&x;
+        done
+    5: while (a|(False)&a)
+    6:	pass;
+    7:	return x;
+        done
+    } 
