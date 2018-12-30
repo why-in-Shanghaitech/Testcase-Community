@@ -1,0 +1,13 @@
+bool exec = False  ;
+bool eval = True;
+main ( ) {
+l1:if (exec & eval)
+l2:	exec=!eval;
+l3:	pass;
+fi
+l4:while (eval)
+l5:	eval=!eval&exec;
+done
+l6:exec = !eval;
+l7:return exec;
+}
