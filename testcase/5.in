@@ -1,0 +1,5 @@
+	bool x=True;
+main(){
+a_1:x=!x;
+b_2:return x;
+}
