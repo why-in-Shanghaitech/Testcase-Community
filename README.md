@@ -13,22 +13,22 @@ You are also invited to help me update this repository. If you want, just send a
 My email address is wuhy1@shanghaitech.edu.cn
 
 # How to use
-1. Install git
+### 1. Install git
 
   Please install git first. You are expected to finish this in the begining of this semester. If not, please refer to tu0, which is accessible on piazza.
 
 
-2. Download the off-line judger
+### 2. Download the off-line judger
 
   You can download this whole folder through "Clone or download" icon which is on the right side top of this page. Click "Download ZIP" to get it on your own laptop.
 
 
-3. Program
+### 3. Program
 
   Finish your program in the file "hw6.py". You can also copy-paste your file to "hw6.py".
 
 
-4. Judge
+### 4. Judge
 
   Judge your own program through running "judger.py". Use command line "python judger.py" on Windows or "python3 judger.py" on linux.
 
