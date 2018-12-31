@@ -59,7 +59,7 @@ while True:
                 re_case += 1
             else:
                 # check if it is the right answer
-                answer = open( pre + "testcase/"+str(i)+".out", "rb")
+                answer = open( pre + "testcase/"+str(i)+".out", "r+")
                 if cur_answer == answer.readline():
                     case.append(('ac ',seconds_passed))
                     ac_case += 1
