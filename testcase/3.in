@@ -10,7 +10,9 @@
     4:      z=y&x;
         done
     5: while (a|(False)&a)
-    6:	pass;
-    7:	return x;
+    6:	pass;8:a=!(!!a);
+
+
         done
+            7:	return x;
     } 
