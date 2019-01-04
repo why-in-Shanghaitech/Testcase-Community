@@ -1,0 +1,63 @@
+bool lmz = False ;
+bool min = False ;
+bool opop = True ;
+bool l_DOvP = True ;
+bool kyZOud = True ;
+bool zhang = False;
+bool buniminz = True ;
+bool siFWGE = False ;
+bool MUcEQ3 = False ;
+bool bumin = False ;
+    main()
+{
+HILUH:  pass ;
+UTDC:  kyZOud = ( ! zhang | ! bumin ) ;\t\n FDSFCV:  siFWGE = bumin ;
+4:  bumin = ! buniminz ;
+5:  if ( ! kyZOud | MUcEQ3 )
+6:  pass ;
+
+
+
+
+
+
+7:  MUcEQ3 = ( ( kyZOud | opop ) & ! lmz | ! bumin ) ;
+8:  lmz = ( ! lmz & kyZOud ) | bumin & MUcEQ3 ;
+9:  lmz = ! zhang ;
+9UHLNJN:  kyZOud = l_DOvP ;
+IYFXD:  min = ( ! buniminz | ! l_DOvP & ! MUcEQ3 & buniminz ) ;
+thrj:  siFWGE = ( l_DOvP | MUcEQ3 ) & opop ;
+13:  opop = ! bumin ;
+14:  l_DOvP = ( zhang | ! buniminz | opop ) & kyZOud | ! buniminz ;
+15:  kyZOud = ! buniminz ;
+16:  opop = bumin ;
+17:  siFWGE = siFWGE & ! l_DOvP;
+
+
+18:  buniminz = ( ! zhang | opop & ! zhang & siFWGE ) ;
+ fi
+
+
+
+
+
+
+
+19:  while ( ( ! zhang & ! siFWGE | l_DOvP & siFWGE ) )
+20:lmz = ( bumin & ! kyZOud | l_DOvP & siFWGE ) & l_DOvP ;
+21:  kyZOud = ! lmz ;
+22:  buniminz = ( ( ! lmz | ! zhang ) | ! siFWGE & ! l_DOvP & min ) ;
+23:  kyZOud = ! lmz ;
+24:  buniminz = ( ( ! l_DOvP & ! lmz | ! opop ) & ! MUcEQ3 ) | ! siFWGE ;
+25:  MUcEQ3 = ! buniminz ;
+26:  zhang = ! zhang ;27:  siFWGE = ( ! zhang & kyZOud & ! l_DOvP ) ;
+28:opop = ( ( ( ( zhang | ! zhang ) & ! min ) | ! opop ) & ! kyZOud ) ;
+29:  pass;
+30:  MUcEQ3 = ! lmz & ! bumin & ! buniminz | zhang ; done
+31:  buniminz = ( ( min & ! siFWGE | ! kyZOud ) & ! lmz ) | ! buniminz ;
+32:  min = ( min & siFWGE | buniminz & bumin ) | bumin ;
+33:  lmz = ( kyZOud & zhang ) & siFWGE | bumin ;
+34:  kyZOud = ( kyZOud & MUcEQ3 | MUcEQ3 ) & bumin ;
+35:  buniminz = min ;
+tonsdai:  return  MUcEQ3 ;
+}
