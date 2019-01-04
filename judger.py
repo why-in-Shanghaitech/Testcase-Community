@@ -4,18 +4,28 @@ import time
 import sys
 import threading
 
-# fit the environment
-time_limit = 0.1        # default time limit is 0.1 s
+# ====================== FIT THE ENVIRONMENT ======================
+
+time_limit = 0.1        # default time limit is 0.1 second
 pre = ""
 python_version = "python3"
 if os.name=='nt':
     # if it is under windows
     pre = "./"
     python_version = "python"
-    time_limit = 1      # default time limit on windows is 1 s
+    time_limit = 1      # default time limit on windows is 1 second
 elif os.name=='posix':
     # if it is under linux
     pass
+
+# ====================== UPDATE TESTCASES ======================
+
+# function of showing the update progress
+def UpdtShow():
+    prog_state = ['|','\\','-','/']
+    while Continue_Showing:   
+        print("\rUpdating the testcase...{0}".format(prog_state[int(time.time()*8)%4]), end='')
+        sys.stdout.flush()
 
 # update testcases
 if not(os.path.exists(pre + ".git")):
@@ -23,7 +33,34 @@ if not(os.path.exists(pre + ".git")):
     os.system("git remote add -f origin https://github.com/why-in-Shanghaitech/Testcase-Community.git")
     os.system("git config core.sparsecheckout true")
     os.system("echo testcase >> .git/info/sparse-checkout")
-os.system("git fetch --all && git reset --hard origin/master")
+
+# quit if cannot connect to git
+max_wait = 10       # default quit time limit is 10 seconds
+Showing_the_program, Continue_Showing= threading.Thread(target=UpdtShow), True
+Showing_the_program.start()
+update = subprocess.Popen("git fetch --all", stderr=subprocess.STDOUT, stdout=subprocess.PIPE, shell=True)
+begin_time = time.time()
+while (update.poll() is None) and ((time.time() - begin_time) < max_wait):
+    pass
+if update.poll() is None:
+    update.terminate()
+    Continue_Showing = False
+    Showing_the_program.join()
+    print("\rFetching failed. Local testcase will be used.")
+    sys.stdout.flush()
+else:
+    update = subprocess.Popen("git reset --hard origin/master", stderr=subprocess.STDOUT, stdout=subprocess.PIPE, shell=True)
+    while update.poll() is None:
+        pass
+    Continue_Showing = False
+    Showing_the_program.join()
+    print("\rUpdating the testcase...done.")
+    sys.stdout.flush()
+    os.system("")
+    
+
+
+# ====================== RUNNING THE PROGRAM ======================
 
 # initilize varibles
 i = 1
@@ -40,7 +77,7 @@ if not(os.path.exists(pre + "hw6.py")):
 
 # function of showing the progress
 def ProgShow():
-    prog_state = ['|','\\','–','/']
+    prog_state = ['|','\\','-','/']
     while Continue_Showing:   
         print("\rJudging: testcase {0} is being judged...{1}".format(i, prog_state[int(time.time()*8)%4]), end='')
         sys.stdout.flush()
@@ -93,9 +130,11 @@ while True:
 # Stop showing the progress
 Continue_Showing = False
 Showing_the_program.join()
+print("\rJudging: testcase {0} is being judged...done.".format(i-1))
+sys.stdout.flush()
 
 # print the report
-print("\n\n\n\n========= Below is your report =========")
+print("\n\n========= Below is your report =========")
 print("    ID           Status         Time\n")
 for i in range(len(case)):
     print("   {0:3}     {3}{1:^19}{4}  {2:.2f}ms".format(i+1, st_dict[case[i][0]][1], 1000*case[i][1], st_dict[case[i][0]][0], st_dict[case[i][0]][2]))
