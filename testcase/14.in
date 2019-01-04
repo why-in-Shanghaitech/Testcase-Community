@@ -1,0 +1,8 @@
+bool a=True;
+bool aa=False;
+bool aaa=True;
+bool aaaa  =	True 	;
+main(	)	{	a	:if (!aa&aaaa|aaa)
+
+aa:aaaa=False;fi
+aaa:return aaaa;}
