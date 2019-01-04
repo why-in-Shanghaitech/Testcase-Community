@@ -1,0 +1,8 @@
+V0.0.2 Judger has been updated!
+
+-->The program will test local testcases if it cannot connect to git after 10 seconds.
+-->Better UI.
+
+Welcome to download it on
+https://github.com/why-in-Shanghaitech/Testcase-Community/blob/master/judger.py
+Both copy-paste and click Download is OK.
