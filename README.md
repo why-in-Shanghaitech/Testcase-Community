@@ -21,6 +21,8 @@ My email address is wuhy1@shanghaitech.edu.cn
 ### 2. Download the off-line judger
 
   You can download this whole folder through "Clone or download" icon which is on the right side top of this page. Click "Download ZIP" to get it on your own laptop.
+  
+  You can also just copy the whole file of [judger.py](https://github.com/why-in-Shanghaitech/Testcase-Community/blob/master/judger.py), save it in your own computer and put your hw6.py under the same path. The judger will download all the testcases automatically.
 
 
 ### 3. Program
