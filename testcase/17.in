@@ -1,0 +1,7 @@
+bool TrueFalse=True;
+bool FalseTrue=False;
+bool True_False=True;
+bool False_True  =True 	;
+bool bool=False;
+main(	)	{	main	:if (TrueFalse|FalseTrue&!True_False|(!True&False_True))True:TrueFalse=False;fi
+False:return TrueFalse;}

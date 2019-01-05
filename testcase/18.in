@@ -1,0 +1,4 @@
+bool bool=True;
+bool main=False;
+main(	)	{	main	:if (((((!main)))))bool:bool=False;fi		
+False:return bool;}

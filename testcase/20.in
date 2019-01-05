@@ -1,0 +1,7 @@
+bool or=True;
+bool import=False;
+bool true=False;
+bool output=True;
+main(	)	{
+rm:output=or&(((or|true&!import)));or:return output;
+}

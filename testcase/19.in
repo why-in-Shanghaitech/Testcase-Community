@@ -1,0 +1,13 @@
+bool exit=True;
+bool shutdown=False;
+bool True_=False;
+bool and  =True  ;
+bool not=True;
+bool 1=True;
+main(	)	{
+fI	:if(exit)
+iF:1=False;fi\nWhile:while(1)true:pass;done
+exec:if(! and&and|and&not|shutdown)
+0xffffff: 1=True;fi
+0b0000:return 1;
+}
