@@ -1,0 +1,157 @@
+bool nob = False ;
+bool qV7iDZ = False ;
+bool mdHhwt8 = False ;
+bool 49tIRH = False ;
+bool o = True ;
+bool e28teJ = False ;
+bool aM1H = True ;
+bool 3Mb = True ;
+bool VJFxNak40TVb = False ;
+bool oX = False ;
+bool BcI8Niry01 = True ;
+bool TrhQOtZ0x2nJ = True ;
+bool 6ijORQH2Ed = True ;
+bool S = False ;
+bool hhVABuhHOZhm = True ;
+bool HNd3r = False ;
+bool vFM5vl1 = False ;
+bool WRs = False ;
+main( ){
+EMLCy: o
+= (
+TrhQOtZ0x2nJ&!49tIRH)	|
+
+e28teJ
+|vFM5vl1	;
+8: 
+
+
+pass
+
+	;
+Z: if( 
+	!	nob| BcI8Niry01)
+xKR: oX
+
+	=
+	 (	(	
+BcI8Niry01&!3Mb
+)|!oX|!
+ 
+6ijORQH2Ed) ;
+GKRTF5xoS: pass  
+;
+	 fi
+1ZcgG: mdHhwt8	=
+ (
+(! 	WRs |	
+3Mb	)&!hhVABuhHOZhm 
+
+&!vFM5vl1
+	) 
+	;
+jYwe2dgScr: 	TrhQOtZ0x2nJ
+=
+
+((
+aM1H
+
+|!e28teJ
+
+
+)|mdHhwt8	)
+
+;
+ims: 
+aM1H 	
+=
+ (
+ 
+(!
+ 	TrhQOtZ0x2nJ&
+
+ !	
+TrhQOtZ0x2nJ|!3Mb	  |	
+ BcI8Niry01)&	 
+hhVABuhHOZhm)
+	
+;
+hmR: if	((!
+	 S 
+|!TrhQOtZ0x2nJ) | 	vFM5vl1)
+SA:  VJFxNak40TVb
+=!	3Mb
+
+&!
+ 
+hhVABuhHOZhm|!		
+nob
+
+;
+IHpK: 
+aM1H	=
+(  (!
+mdHhwt8|VJFxNak40TVb)&!6ijORQH2Ed	&!3Mb)	
+ ;
+EYe2PdGhs: oX
+=
+(((!	
+hhVABuhHOZhm|		o)| VJFxNak40TVb)&TrhQOtZ0x2nJ& 
+3Mb);
+	 fi
+rwHKsB: 
+	S
+	
+=  	(!
+
+
+TrhQOtZ0x2nJ|TrhQOtZ0x2nJ)	  &
+ qV7iDZ|
+
+	! 	aM1H
+
+;
+V76vP: 
+if((hhVABuhHOZhm
+&o&!HNd3r
+ 	&	
+!	
+6ijORQH2Ed 		)
+|
+vFM5vl1)
+j4: S= 	 !e28teJ
+&
+!S
+	 |qV7iDZ
+
+;
+n: nob=	
+ (TrhQOtZ0x2nJ &!
+mdHhwt8 &
+
+!mdHhwt8) 	
+|!hhVABuhHOZhm&! HNd3r	;
+BA: 	pass
+
+;
+CuJ:  WRs	=
+
+(oX	|6ijORQH2Ed&	qV7iDZ 	|qV7iDZ)
+
+
+&BcI8Niry01  ;
+	 fi
+ju3M21sq: HNd3r
+
+=	(
+
+hhVABuhHOZhm|
+	
+!3Mb|!
+	nob
+
+) ;
+RIjfMDBmcE: 
+return S ;
+}
+
